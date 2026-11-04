@@ -23,3 +23,25 @@ This folder contains the Python AI-analysis module for Sleep Quality and Stress 
     "feels_tired_on_waking": true
   }
 }
+```
+# Setup & Environment
+Install dependencies:
+
+pip install -r requirements.txt
+
+# Configure Environment Variable:
+Create a local .env file in the root directory (do NOT commit to Git):
+
+Code snippet
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+
+# API Endpoints
+Health Check
+GET /
+
+# Generate Sleep & Stress Report
+POST /api/sleep-stress/analyze
+
+# Run API
+To run the server locally:
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
