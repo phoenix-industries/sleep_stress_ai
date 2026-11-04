@@ -1,0 +1,9 @@
+{
+  "user_survey": {
+    "sleep_duration_hours": 4.5,
+    "sleep_regularity": "Irregular",
+    "caffeine_after_4pm": true,
+    "stress_level_1_to_10": 9,
+    "feels_tired_on_waking": true
+  }
+}
